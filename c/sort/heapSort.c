@@ -26,7 +26,8 @@ void sift(ElemType a[],
 	    j++;
 	if (cmp(tmp, a[j]))
 	{													     
-	    a[i] = a[j];												            i = j;												
+	    a[i] = a[j];												            
+	    i = j;												
 	    j = 2 * i;         
 	}									        
 	else		
