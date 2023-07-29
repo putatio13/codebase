@@ -1,0 +1,9 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: WHU-STU, server: 192.168.238.148, port: 8080, type: http}
+  - {name: CMCC, server: 192.168.1.8, port: 8080, type: http}
