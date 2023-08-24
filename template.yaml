@@ -5,5 +5,5 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: WHU-STU, server: 192.168.127.2, port: 8080, type: http}
+  - {name: WHU-STU, server: 192.168.122.70, port: 8080, type: http}
   - {name: CMCC, server: 192.168.1.3, port: 8080, type: http}
